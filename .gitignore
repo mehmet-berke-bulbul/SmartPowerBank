@@ -1,0 +1,29 @@
+# KiCad user/local files
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+*.lck
+
+# Plot / temporary files
+*.gbr
+*.GBR
+*.drl
+*.DRL
+*.pos
+*.csv~
+*.pdf~
+*.zip
+
+# Python / STM32 tooling
+__pycache__/
+*.pyc
+.venv/
+build/
+Debug/
+Release/
+
+# OS files
+.DS_Store
+Thumbs.db
