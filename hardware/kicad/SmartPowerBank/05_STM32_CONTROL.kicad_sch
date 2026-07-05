@@ -1,0 +1,228 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3a5c3f61-6bf4-4772-bb14-8205c31f67f5")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "I2C_UI_SDA"
+		(shape bidirectional)
+		(at 16.51 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "04b5f61a-9106-4157-bbbe-c4adff535c36")
+	)
+	(hierarchical_label "I2C_CHG_SCL"
+		(shape bidirectional)
+		(at 16.51 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "094842a4-9dee-4ce8-9908-6e20e8c9823e")
+	)
+	(hierarchical_label "BTN_MODE"
+		(shape input)
+		(at 16.51 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11d04144-ef45-4d1e-9928-3a06d0ed7395")
+	)
+	(hierarchical_label "UART_DBG_TX"
+		(shape output)
+		(at 16.51 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "19fd46e9-07a2-4548-829c-bf1e4d1ff088")
+	)
+	(hierarchical_label "BTN_PWR"
+		(shape input)
+		(at 16.51 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "231c9cf4-755c-4e12-83ae-fcea7f1b21e3")
+	)
+	(hierarchical_label "NTC_PWR_ADC"
+		(shape input)
+		(at 16.51 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "393ebc79-198f-4156-8cd9-2d0c8906bc5c")
+	)
+	(hierarchical_label "UART_DBG_RX"
+		(shape input)
+		(at 16.51 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4b4368c1-4e82-4741-b178-faeca4936585")
+	)
+	(hierarchical_label "I2C_UI_SCL"
+		(shape bidirectional)
+		(at 16.51 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "61d3a63c-c7f9-4468-b205-16a3cabd9c20")
+	)
+	(hierarchical_label "I2C_PD_SCL"
+		(shape bidirectional)
+		(at 16.51 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7241f5a3-a1b7-4310-b502-e18f8ee5158c")
+	)
+	(hierarchical_label "BOOT0"
+		(shape input)
+		(at 16.51 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7435e367-23d0-4479-9acf-9481fee0f2ab")
+	)
+	(hierarchical_label "NRST"
+		(shape input)
+		(at 16.51 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "78e82f7c-8786-431d-8115-29f53c9dbe5d")
+	)
+	(hierarchical_label "BMS_ALERT"
+		(shape input)
+		(at 16.51 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "90921756-ddf2-4c51-ae88-157c1206e247")
+	)
+	(hierarchical_label "I2C_CHG_SDA"
+		(shape bidirectional)
+		(at 16.51 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "929c84d6-8803-420c-8258-2251bbff500a")
+	)
+	(hierarchical_label "CHG_ALERT"
+		(shape input)
+		(at 16.51 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a5d00759-dd4e-491b-b053-b35071b2828c")
+	)
+	(hierarchical_label "I2C_BMS_SCL"
+		(shape bidirectional)
+		(at 16.51 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ba57974f-c2bc-4e17-a09f-1b9ae31a28a0")
+	)
+	(hierarchical_label "I2C_BMS_SDA"
+		(shape bidirectional)
+		(at 16.51 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d64e649a-3c83-41e9-b18f-5dfbb4bddd68")
+	)
+	(hierarchical_label "PD_ALERT"
+		(shape input)
+		(at 16.51 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de36bdb8-a900-4ddc-9033-b5606828a04e")
+	)
+	(hierarchical_label "SWCLK"
+		(shape input)
+		(at 16.51 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e17d613e-31a8-46ba-90f9-7667978d7496")
+	)
+	(hierarchical_label "SWDIO"
+		(shape bidirectional)
+		(at 16.51 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e251e8aa-bb94-46fb-900d-3e779452991e")
+	)
+	(hierarchical_label "I2C_PD_SDA"
+		(shape bidirectional)
+		(at 16.51 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f885d6e3-062a-48d9-ae90-685c000371b4")
+	)
+)

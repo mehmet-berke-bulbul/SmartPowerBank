@@ -1,0 +1,74 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6233263b-94b7-4586-a960-8788e3ccabd9")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "CHG_ALERT"
+		(shape output)
+		(at 17.78 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "02656731-dd7d-40c5-ae13-15a73cf8eb2e")
+	)
+	(hierarchical_label "VBUS"
+		(shape bidirectional)
+		(at 17.78 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b7b51c4-6aa5-4661-93fc-57dffebc97af")
+	)
+	(hierarchical_label "PACK_N"
+		(shape bidirectional)
+		(at 17.78 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40a8ae5e-5f52-4881-8e30-6ac328131723")
+	)
+	(hierarchical_label "PACK_P"
+		(shape bidirectional)
+		(at 17.78 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e835a04-6c20-4e18-a641-6030bd108f35")
+	)
+	(hierarchical_label "I2C_CHG_SCL"
+		(shape bidirectional)
+		(at 17.78 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb4b0467-cb28-4cc3-8467-75d7c31bc4cb")
+	)
+	(hierarchical_label "I2C_CHG_SDA"
+		(shape bidirectional)
+		(at 17.78 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f76ade0a-43fd-48ac-8a12-f9c5737e322b")
+	)
+)

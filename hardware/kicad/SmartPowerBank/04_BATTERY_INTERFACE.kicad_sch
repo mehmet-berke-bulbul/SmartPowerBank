@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "88197b0f-80ea-4691-9199-d24d9505365b")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "CELL1"
+		(shape bidirectional)
+		(at 20.32 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0cf8763d-d75a-4438-92ec-09c8accff541")
+	)
+	(hierarchical_label "BATT_N"
+		(shape bidirectional)
+		(at 20.32 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21d97ee5-1855-444b-9c18-72ead9d6587b")
+	)
+	(hierarchical_label "BATT_P"
+		(shape bidirectional)
+		(at 20.32 19.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7440f279-85d7-4fa5-99ea-8acff96cdb53")
+	)
+	(hierarchical_label "NTC_BAT"
+		(shape bidirectional)
+		(at 20.32 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d19113ce-cad0-4a7c-ba09-28508e560770")
+	)
+)

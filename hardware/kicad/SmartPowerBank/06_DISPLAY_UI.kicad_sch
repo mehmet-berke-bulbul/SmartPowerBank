@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a7609263-58dc-4fc4-bfb3-b4f3ca00a2c2")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "BTN_PWR"
+		(shape output)
+		(at 19.05 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01b8d010-ccb5-4cc9-a878-10409cc7e660")
+	)
+	(hierarchical_label "I2C_UI_SCL"
+		(shape bidirectional)
+		(at 19.05 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3fa046f6-4981-4408-9bf3-4641b63be1d2")
+	)
+	(hierarchical_label "BTN_MODE"
+		(shape output)
+		(at 19.05 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "435f72bb-b9ed-4ae1-b7bf-649b5151591f")
+	)
+	(hierarchical_label "I2C_UI_SDA"
+		(shape bidirectional)
+		(at 19.05 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "54879408-fbdb-4dfb-8b80-f50f08a883c1")
+	)
+)

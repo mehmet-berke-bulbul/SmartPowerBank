@@ -1,0 +1,107 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "001ff999-60e2-4fba-81aa-80d8fb306c49")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "BATT_N"
+		(shape bidirectional)
+		(at 21.59 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01772a46-b847-4af4-aa54-021a299a7dce")
+	)
+	(hierarchical_label "PACK_P"
+		(shape bidirectional)
+		(at 21.59 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "104efd32-1240-447b-83d7-78b711d6fd14")
+	)
+	(hierarchical_label "I2C_BMS_SDA"
+		(shape bidirectional)
+		(at 21.59 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "115b0b6c-5db5-4955-b90c-1fb4aeae6588")
+	)
+	(hierarchical_label "PACK_N"
+		(shape bidirectional)
+		(at 21.59 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "154ca731-8add-44ff-a8d2-ebc43313f58d")
+	)
+	(hierarchical_label "I2C_BMS_SCL"
+		(shape bidirectional)
+		(at 21.59 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68db86dc-28ad-4f75-a6b7-c7f8df84ccc9")
+	)
+	(hierarchical_label "BMS_ALERT"
+		(shape output)
+		(at 21.59 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f28b7d5-9a34-4800-82ab-bb94755a3cdc")
+	)
+	(hierarchical_label "NTC_BAT"
+		(shape bidirectional)
+		(at 21.59 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aba7ecf6-f114-479a-ba2b-00a46e9e652e")
+	)
+	(hierarchical_label "CELL1"
+		(shape bidirectional)
+		(at 21.59 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cfaa2c2d-d674-46fa-b015-99529f3b1ec6")
+	)
+	(hierarchical_label "BATT_P"
+		(shape bidirectional)
+		(at 21.59 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de0fe441-9311-497a-8ecd-8cc4d580ba9c")
+	)
+)

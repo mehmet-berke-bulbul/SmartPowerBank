@@ -1,0 +1,74 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6029b5bc-ea7c-4278-aebc-f14bfbfcf41a")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "BOOT0"
+		(shape output)
+		(at 16.51 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "01a4fc9d-cc63-41d7-9bf5-23bfa75ce34b")
+	)
+	(hierarchical_label "SWDIO"
+		(shape bidirectional)
+		(at 16.51 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30ea5dfd-906c-4646-a797-f7fc7fe38ba5")
+	)
+	(hierarchical_label "NRST"
+		(shape output)
+		(at 16.51 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "860c8e54-07b3-4694-922e-4af65976ea1c")
+	)
+	(hierarchical_label "SWCLK"
+		(shape output)
+		(at 16.51 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "951b1899-f85f-4701-b038-d1cdb203e215")
+	)
+	(hierarchical_label "UART_DBG_TX"
+		(shape input)
+		(at 16.51 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7d25a09-e8c9-4f11-b52c-164077466545")
+	)
+	(hierarchical_label "UART_DBG_RX"
+		(shape output)
+		(at 16.51 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8baa779-5422-47e2-afe7-356159859ff9")
+	)
+)

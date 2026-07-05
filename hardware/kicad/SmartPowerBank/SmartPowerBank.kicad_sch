@@ -1,0 +1,1525 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "70386889-8b4f-4afd-be1b-9a643248caa0")
+	(paper "A4")
+	(title_block
+		(title "SmartPowerBank – USB-C PD/PPS Powerbank & Smart BMS\n")
+		(rev "Rev.A – Architecture")
+		(company "Mehmet Berke Bülbül | Bursa Technical University")
+		(comment 1 "2S4P Li-ion Battery Pack | 45 W USB-C PD/PPS Output\n")
+		(comment 2 "60 W USB-C PD Input | STM32 Control | OLED Telemetry\n")
+		(comment 3 "Cell Monitoring | Thermal Protection | Passive Balancing")
+		(comment 4 "Personal Hardware Design Portfolio Project")
+	)
+	(lib_symbols)
+	(junction
+		(at 99.06 96.266)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d7f17db1-5d4f-484f-88ba-ee9a41ed616e")
+	)
+	(wire
+		(pts
+			(xy 82.55 76.2) (xy 82.55 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02898623-12f9-455a-91e2-58a5c6929abb")
+	)
+	(wire
+		(pts
+			(xy 146.05 43.18) (xy 153.67 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a49a2b3-8ae6-4ce6-b20e-a2d93d3cf655")
+	)
+	(wire
+		(pts
+			(xy 87.63 62.23) (xy 93.98 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15c7d400-795a-4a6b-8e81-9cf82f4d0ca0")
+	)
+	(wire
+		(pts
+			(xy 143.51 38.1) (xy 153.67 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "167244bc-5184-400f-b129-03b9b40ba20d")
+	)
+	(wire
+		(pts
+			(xy 144.78 74.93) (xy 153.67 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "209c5834-70c5-4402-9e25-483ee7949126")
+	)
+	(wire
+		(pts
+			(xy 148.59 87.63) (xy 148.59 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21769114-343f-4221-baf3-8ea93f0c9ff6")
+	)
+	(wire
+		(pts
+			(xy 78.74 44.45) (xy 86.36 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d178080-b47f-4467-883f-499dfbd2bbf9")
+	)
+	(wire
+		(pts
+			(xy 119.38 46.99) (xy 119.38 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d4512f8-fdd6-46b6-9e1f-4c6248044c99")
+	)
+	(wire
+		(pts
+			(xy 71.12 54.61) (xy 71.12 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0464dd-304a-46a9-871e-891945a3d958")
+	)
+	(wire
+		(pts
+			(xy 60.96 52.07) (xy 175.26 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2faccb44-5ce3-4949-917d-f5e478adface")
+	)
+	(wire
+		(pts
+			(xy 139.7 66.04) (xy 148.59 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "318ccaa3-c8fc-4e80-92fb-766c9788b188")
+	)
+	(wire
+		(pts
+			(xy 148.59 83.82) (xy 153.67 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32fcfb3d-e565-44c6-8e7c-1cef0658120c")
+	)
+	(wire
+		(pts
+			(xy 88.9 38.1) (xy 88.9 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4205f0bc-48de-408a-bf28-bd9bef9825a4")
+	)
+	(wire
+		(pts
+			(xy 115.57 46.99) (xy 115.57 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "425dabb5-c522-4def-b1ce-653f27e86462")
+	)
+	(wire
+		(pts
+			(xy 86.36 67.31) (xy 93.98 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43494bd0-fe5c-4862-ac56-3dc716a78475")
+	)
+	(wire
+		(pts
+			(xy 135.89 33.02) (xy 153.67 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45a16fd9-81f7-4aec-8f27-cbe37dcd7f53")
+	)
+	(wire
+		(pts
+			(xy 139.7 82.55) (xy 146.05 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a3e5713-f3f2-4607-853b-aa1aa2617e42")
+	)
+	(wire
+		(pts
+			(xy 113.03 46.99) (xy 113.03 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5563e911-2d81-4cee-97ab-d1adde940086")
+	)
+	(wire
+		(pts
+			(xy 146.05 72.39) (xy 146.05 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "589aae07-374f-4939-b372-29b0b98842cb")
+	)
+	(wire
+		(pts
+			(xy 148.59 66.04) (xy 148.59 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a412294-906b-480d-9902-e6b1ef14f4d0")
+	)
+	(wire
+		(pts
+			(xy 109.22 95.25) (xy 109.22 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a59c8e7-dc62-410d-9aea-9276bb65ca21")
+	)
+	(wire
+		(pts
+			(xy 147.32 81.28) (xy 153.67 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86320906-3e77-44a5-95d5-b2340cc79314")
+	)
+	(wire
+		(pts
+			(xy 58.42 50.8) (xy 58.42 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ef880c-22c4-4081-a007-c76c2af14a1e")
+	)
+	(wire
+		(pts
+			(xy 96.52 95.25) (xy 96.52 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "990e7fe6-0d0f-4da1-8b0f-6d4f29cbe389")
+	)
+	(wire
+		(pts
+			(xy 181.61 46.99) (xy 181.61 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d6b8a2-44c9-48d7-b65e-0507f01751af")
+	)
+	(wire
+		(pts
+			(xy 58.42 50.8) (xy 172.72 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e562721-6f26-42cc-9010-e2acf46e2306")
+	)
+	(wire
+		(pts
+			(xy 78.74 33.02) (xy 93.98 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fdd1f51-95f4-40d3-bada-d17a37431a81")
+	)
+	(wire
+		(pts
+			(xy 147.32 90.17) (xy 147.32 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2633ffc-52f0-4596-826c-9ce4567d5056")
+	)
+	(wire
+		(pts
+			(xy 99.06 96.266) (xy 99.06 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a331a3ff-bc61-4db9-b44d-50b4a8b9ad52")
+	)
+	(wire
+		(pts
+			(xy 135.89 30.48) (xy 153.67 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a40e06f9-2bab-4409-b142-0d3ee496e1ed")
+	)
+	(wire
+		(pts
+			(xy 139.7 90.17) (xy 147.32 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a46e55c8-7bd2-482a-9e76-199c4df496d5")
+	)
+	(wire
+		(pts
+			(xy 78.74 38.1) (xy 88.9 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a548acbd-fbd3-4756-b63f-167d9c7214ba")
+	)
+	(wire
+		(pts
+			(xy 60.96 69.85) (xy 60.96 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5a3076a-3147-40f7-8f8d-3e8c9790af26")
+	)
+	(wire
+		(pts
+			(xy 148.59 45.72) (xy 153.67 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a897e75c-200c-476d-8318-eeca3ccd2221")
+	)
+	(wire
+		(pts
+			(xy 139.7 59.69) (xy 143.51 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0dd092-de8f-40ad-a789-216248441f05")
+	)
+	(wire
+		(pts
+			(xy 172.72 46.99) (xy 172.72 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa5e54e7-c118-48c8-9a9c-7284d7687ddf")
+	)
+	(wire
+		(pts
+			(xy 67.31 53.34) (xy 67.31 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6b92011-e77f-4260-8b6b-bcb4ccee5a0a")
+	)
+	(wire
+		(pts
+			(xy 106.68 95.25) (xy 106.68 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c02843ea-8f3b-4b46-8f0e-bbb41e86e2ad")
+	)
+	(wire
+		(pts
+			(xy 87.63 40.64) (xy 87.63 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c851e32d-9544-42ff-bda6-7a7037611cf5")
+	)
+	(wire
+		(pts
+			(xy 77.978 109.22) (xy 82.55 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ce74d6-6468-46b4-8b04-487993a0345e")
+	)
+	(wire
+		(pts
+			(xy 146.05 72.39) (xy 153.67 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8b5c6e-1547-41c0-8f1c-6a8f06e871c5")
+	)
+	(wire
+		(pts
+			(xy 111.76 95.25) (xy 111.76 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d15d9472-d0dd-4b94-85f9-55a470d106af")
+	)
+	(wire
+		(pts
+			(xy 86.36 44.45) (xy 86.36 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dafdb583-40ee-41c8-a8cb-b8bc3f27699a")
+	)
+	(wire
+		(pts
+			(xy 139.7 87.63) (xy 148.59 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df31f121-13b4-4570-9ed3-23e161092b9e")
+	)
+	(wire
+		(pts
+			(xy 99.06 95.25) (xy 99.06 96.266)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8b50d1-3ff8-4a98-9a13-ded4656adaa0")
+	)
+	(wire
+		(pts
+			(xy 144.78 80.01) (xy 144.78 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfad6e1c-7f1a-4aa4-a8e4-1a9950e97a88")
+	)
+	(wire
+		(pts
+			(xy 78.74 40.64) (xy 87.63 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e99884b5-c0f7-4793-98a6-05e90b39a43c")
+	)
+	(wire
+		(pts
+			(xy 67.31 53.34) (xy 179.07 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec66fe0b-16e7-47ce-9644-fceb59cc0332")
+	)
+	(wire
+		(pts
+			(xy 88.9 59.69) (xy 93.98 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01d83f9-0e85-41e7-931e-23e5ca704f9d")
+	)
+	(wire
+		(pts
+			(xy 146.05 63.5) (xy 146.05 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f17c24ea-7a6c-402d-abf8-127eded954d1")
+	)
+	(wire
+		(pts
+			(xy 104.14 95.25) (xy 104.14 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f19ec0b0-a6e7-4d72-8f8f-4f371b3adb7c")
+	)
+	(wire
+		(pts
+			(xy 143.51 59.69) (xy 143.51 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2010085-c579-421a-8851-c33dd1f19f31")
+	)
+	(wire
+		(pts
+			(xy 139.7 63.5) (xy 146.05 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f37e4f1c-b779-402a-8352-111abba68ed0")
+	)
+	(wire
+		(pts
+			(xy 175.26 46.99) (xy 175.26 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f435b353-27f0-43f9-aa09-d2f65a19f318")
+	)
+	(wire
+		(pts
+			(xy 71.12 54.61) (xy 181.61 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f553ed47-de24-4b35-9d34-fbedb49615ca")
+	)
+	(wire
+		(pts
+			(xy 93.98 76.2) (xy 82.55 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f55cd0d8-5040-485b-b3ce-e4a869d0b4ec")
+	)
+	(wire
+		(pts
+			(xy 139.7 80.01) (xy 144.78 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f89668fd-935e-4c36-b5f2-3aeb530b936b")
+	)
+	(wire
+		(pts
+			(xy 179.07 46.99) (xy 179.07 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd0eefb4-cb73-418c-acba-374d5fbcc021")
+	)
+	(sheet
+		(at 36.83 30.48)
+		(size 41.91 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "07f48e68-00df-436f-b164-fc7db8b2d6e1")
+		(property "Sheetname" "01_USB_C_PD"
+			(at 36.83 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01_USB_C_PD.kicad_sch"
+			(at 36.83 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBUS" bidirectional
+			(at 78.74 33.02 0)
+			(uuid "a41d2b1a-8ec4-4b51-85a7-cc79881d05a1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_PD_SDA" bidirectional
+			(at 78.74 38.1 0)
+			(uuid "ec0a1d60-233f-4a80-906a-98c6e55aab2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_PD_SCL" bidirectional
+			(at 78.74 40.64 0)
+			(uuid "bd4a0ddf-6e3a-4a8f-879f-9113ec11e979")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PD_ALERT" output
+			(at 78.74 44.45 0)
+			(uuid "ab9531a3-dbf5-49b7-a2d4-a25f5986b265")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SmartPowerBank"
+				(path "/70386889-8b4f-4afd-be1b-9a643248caa0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 29.21)
+		(size 43.18 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "21c2b723-ce0b-4616-9dca-8a628b58e398")
+		(property "Sheetname" "03_BMS_PROTECTION"
+			(at 153.67 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03_BMS_PROTECTION.kicad_sch"
+			(at 153.67 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_BAT" bidirectional
+			(at 179.07 46.99 270)
+			(uuid "9018599e-0d36-47a5-a14e-296616fcce80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BMS_ALERT" output
+			(at 153.67 38.1 180)
+			(uuid "c77cb29e-1225-429f-9baa-818b7f7a24be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_BMS_SCL" bidirectional
+			(at 153.67 45.72 180)
+			(uuid "0686fb59-7fdb-489a-9973-a13251cd1f25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PACK_P" bidirectional
+			(at 153.67 30.48 180)
+			(uuid "b8477fcb-878a-47a9-9917-128ff86789cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_BMS_SDA" bidirectional
+			(at 153.67 43.18 180)
+			(uuid "0ba1b3b4-390d-4239-9a58-a92b721ac9d8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PACK_N" bidirectional
+			(at 153.67 33.02 180)
+			(uuid "b11a78e7-505c-4222-ab88-b9fe3a3f5044")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CELL1" bidirectional
+			(at 181.61 46.99 270)
+			(uuid "6efc5ef9-6005-433c-8ef0-5a72cf85ee0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BATT_N" bidirectional
+			(at 175.26 46.99 270)
+			(uuid "8632b58e-d907-4a24-ae10-530e4e564617")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BATT_P" bidirectional
+			(at 172.72 46.99 270)
+			(uuid "a264950a-f7c2-426c-9368-7a2ea6d1c5b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SmartPowerBank"
+				(path "/70386889-8b4f-4afd-be1b-9a643248caa0"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 94.488 104.902)
+		(size 41.91 17.526)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2cfaa658-04a0-4e07-aa34-0abe43becb32")
+		(property "Sheetname" "08_DEBUG_PROGRAMMING"
+			(at 94.742 122.174 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "08_DEBUG_PROGRAMMING.kicad_sch"
+			(at 94.488 123.444 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NRST" output
+			(at 109.22 104.902 90)
+			(uuid "2d650ffb-273d-4bc2-9542-676e1350a456")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 106.68 104.902 90)
+			(uuid "9d79df89-213d-4e21-8684-76bd21600bb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_DBG_RX" output
+			(at 99.06 104.902 90)
+			(uuid "722a24da-e1b1-42fd-931f-6d91ab876515")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BOOT0" output
+			(at 111.76 104.902 90)
+			(uuid "c5c44efe-d117-4d51-8dc1-c256e1bb2603")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_DBG_TX" input
+			(at 96.52 104.902 90)
+			(uuid "c3c274f2-147f-45b4-bd0d-704685123b4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SWCLK" output
+			(at 104.14 104.902 90)
+			(uuid "3cd81bf1-5f35-443c-ad18-df6624fb3846")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SmartPowerBank"
+				(path "/70386889-8b4f-4afd-be1b-9a643248caa0"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.162 69.85)
+		(size 43.18 19.304)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3bd4e153-a49e-4ce1-879b-23e15dd44dbd")
+		(property "Sheetname" "06_DISPLAY_UI"
+			(at 153.162 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "06_DISPLAY_UI.kicad_sch"
+			(at 153.162 89.7386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_UI_SCL" bidirectional
+			(at 153.162 72.39 180)
+			(uuid "8931deed-7c4e-4947-8d46-61f2d74ad360")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_UI_SDA" bidirectional
+			(at 153.162 74.93 180)
+			(uuid "5935565c-add3-4885-98d0-591b56dedf55")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_MODE" output
+			(at 153.162 83.82 180)
+			(uuid "c6f6f1bd-416d-48b2-9623-07d4200d7128")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_PWR" output
+			(at 153.162 81.28 180)
+			(uuid "111709e9-9266-4975-a582-cdccc7e64467")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SmartPowerBank"
+				(path "/70386889-8b4f-4afd-be1b-9a643248caa0"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 35.56 69.85)
+		(size 41.91 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "40907bad-3c11-4526-ae86-f37512633068")
+		(property "Sheetname" "04_BATTERY_INTERFACE"
+			(at 35.56 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04_BATTERY_INTERFACE.kicad_sch"
+			(at 35.56 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_BAT" bidirectional
+			(at 67.31 69.85 90)
+			(uuid "36fd2a2b-1e81-442a-9bb6-214c2e9f3db6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CELL1" bidirectional
+			(at 71.12 69.85 90)
+			(uuid "334342f6-01ca-40c2-8028-a6d3ff030b13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BATT_P" bidirectional
+			(at 58.42 69.85 90)
+			(uuid "2ddebddc-3a80-4a0d-adcf-ed929a2d50c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BATT_N" bidirectional
+			(at 60.96 69.85 90)
+			(uuid "7b2e6659-f5a1-4709-b44d-7dcf87606797")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SmartPowerBank"
+				(path "/70386889-8b4f-4afd-be1b-9a643248caa0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.068 104.902)
+		(size 41.91 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "54161efd-d9da-41c8-b24b-f0de57f0377d")
+		(property "Sheetname" "07_TEMPERATURE_SENSING"
+			(at 36.068 104.1904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "07_TEMPERATURE_SENSING.kicad_sch"
+			(at 36.068 116.9166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NTC_PWR_ADC" output
+			(at 77.978 109.22 0)
+			(uuid "c021616f-e92f-4b87-8113-c65aa83026ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "SmartPowerBank"
+				(path "/70386889-8b4f-4afd-be1b-9a643248caa0"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.686 103.886)
+		(size 43.18 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5943cfda-f1ff-4307-8b46-736501aed74b")
+		(property "Sheetname" "09_TESTPOINTS_AND_SERVICE"
+			(at 154.686 103.1744 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "09_TESTPOINTS_AND_SERVICE.kicad_sch"
+			(at 154.686 115.9006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SmartPowerBank"
+				(path "/70386889-8b4f-4afd-be1b-9a643248caa0"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 29.21)
+		(size 41.91 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d7795d5f-2aee-49bc-ba0d-163bf435a7c1")
+		(property "Sheetname" "02_BIDIRECTIONAL_CHARGER"
+			(at 93.98 28.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "02_BIDIRECTIONAL_CHARGER.kicad_sch"
+			(at 93.98 47.5746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBUS" bidirectional
+			(at 93.98 33.02 180)
+			(uuid "f32c71b8-f712-4fd9-96e7-7686c3a07822")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PACK_P" bidirectional
+			(at 135.89 30.48 0)
+			(uuid "679ccca6-23a5-4694-abc0-aff5420fff91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PACK_N" bidirectional
+			(at 135.89 33.02 0)
+			(uuid "43df8395-5db5-4744-b73c-a4b73ec78156")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_CHG_SDA" bidirectional
+			(at 113.03 46.99 270)
+			(uuid "4f7ba0b4-1ce6-405d-9b31-d424c20906e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_CHG_SCL" bidirectional
+			(at 115.57 46.99 270)
+			(uuid "2e8dedf4-6f48-4d7b-a338-79cb55470e84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CHG_ALERT" output
+			(at 119.38 46.99 270)
+			(uuid "9eaa5195-132d-49a2-aea4-86c4ff23c542")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SmartPowerBank"
+				(path "/70386889-8b4f-4afd-be1b-9a643248caa0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 93.98 57.15)
+		(size 46.482 39.116)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f3721cc1-912a-4aa9-9bee-9b50e52d547f")
+		(property "Sheetname" "05_STM32_CONTROL"
+			(at 93.98 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_STM32_CONTROL.kicad_sch"
+			(at 106.934 97.028 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "I2C_BMS_SCL" bidirectional
+			(at 140.462 66.04 0)
+			(uuid "1ffec6ef-9e29-4cc8-a7b9-5616d17638df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_CHG_SDA" bidirectional
+			(at 113.03 57.15 90)
+			(uuid "2b3cb314-0314-4d51-b6f8-a0f8b468d981")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_BMS_SDA" bidirectional
+			(at 140.462 63.5 0)
+			(uuid "d138cc89-3ca6-41b6-8ac6-711cb3259c15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BMS_ALERT" input
+			(at 140.462 59.69 0)
+			(uuid "a2d9da50-7aa0-461a-898c-c12d3c5d03b9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PD_ALERT" input
+			(at 93.98 67.31 180)
+			(uuid "8b5b1cb3-f0e0-4a44-a0e1-b741fe770e3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_PD_SDA" bidirectional
+			(at 93.98 59.69 180)
+			(uuid "549610bb-1991-475b-9213-e0f4b5518f21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_PD_SCL" bidirectional
+			(at 93.98 62.23 180)
+			(uuid "57bd55d1-e612-4ba7-874e-64ee89dc1fed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_CHG_SCL" bidirectional
+			(at 115.57 57.15 90)
+			(uuid "9d9b655f-e489-4505-a180-f41d0570a850")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CHG_ALERT" input
+			(at 119.38 57.15 90)
+			(uuid "7fba5334-58d8-4884-b614-4ece11fd503e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_UI_SDA" bidirectional
+			(at 140.462 80.01 0)
+			(uuid "f65d032e-88a0-4289-99c1-9b7115205030")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_UI_SCL" bidirectional
+			(at 140.462 82.55 0)
+			(uuid "3eb8ace0-a0ca-43f8-a02c-6fccc17c561d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NTC_PWR_ADC" input
+			(at 93.98 76.2 180)
+			(uuid "eddff2a5-efe7-4453-9b68-ae67f44606ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWDIO" bidirectional
+			(at 106.68 96.266 270)
+			(uuid "a1be593e-b07d-414b-ab1a-7ff89ddde909")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NRST" input
+			(at 109.22 96.266 270)
+			(uuid "20a905d0-eaaf-4fce-8fa2-b7b7fe2e2f60")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BOOT0" input
+			(at 111.76 96.266 270)
+			(uuid "164e6784-c058-41b6-a36d-7e513d79945f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SWCLK" input
+			(at 104.14 96.266 270)
+			(uuid "c13688a1-da0f-43fd-ba7e-771c51f00099")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BTN_MODE" input
+			(at 140.462 87.63 0)
+			(uuid "bec94ae5-af21-450a-a100-5a8d025d1ebf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BTN_PWR" input
+			(at 140.462 90.17 0)
+			(uuid "4aceb1fe-07b0-45f5-8c0b-3e14ae697eaa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_DBG_RX" input
+			(at 99.06 96.266 270)
+			(uuid "c2a6a80e-d52a-4f73-b766-d3d260af9540")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_DBG_TX" output
+			(at 96.52 96.266 270)
+			(uuid "faff9ec1-9655-4cc8-b66b-c8f57f41332d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "SmartPowerBank"
+				(path "/70386889-8b4f-4afd-be1b-9a643248caa0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

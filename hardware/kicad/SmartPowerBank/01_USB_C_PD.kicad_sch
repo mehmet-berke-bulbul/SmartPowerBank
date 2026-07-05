@@ -1,0 +1,52 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "6ae25864-8bf1-4896-82e5-1ae4dfa1cb4e")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "I2C_PD_SCL"
+		(shape bidirectional)
+		(at 20.32 30.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "002823e2-d23f-444c-aca8-087d13f5e99b")
+	)
+	(hierarchical_label "I2C_PD_SDA"
+		(shape bidirectional)
+		(at 20.32 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3561c77e-b56d-4e3c-92b6-86cc69d38eb3")
+	)
+	(hierarchical_label "PD_ALERT"
+		(shape output)
+		(at 20.32 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "41d44a7f-45ac-48d9-a5a3-b078dd8d8f4a")
+	)
+	(hierarchical_label "VBUS"
+		(shape bidirectional)
+		(at 20.32 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "acce4e4b-635a-4f59-8540-d2a623614f71")
+	)
+)
