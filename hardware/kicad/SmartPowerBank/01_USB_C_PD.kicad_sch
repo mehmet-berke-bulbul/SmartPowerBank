@@ -27,6 +27,17 @@
 		)
 		(uuid "3561c77e-b56d-4e3c-92b6-86cc69d38eb3")
 	)
+	(hierarchical_label "I2CC_SCL"
+		(shape bidirectional)
+		(at 20.32 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4088b225-bf63-4875-87d2-d00dc4c6816d")
+	)
 	(hierarchical_label "PD_ALERT"
 		(shape output)
 		(at 20.32 38.1 0)
@@ -38,6 +49,17 @@
 		)
 		(uuid "41d44a7f-45ac-48d9-a5a3-b078dd8d8f4a")
 	)
+	(hierarchical_label "I2CC_SDA"
+		(shape bidirectional)
+		(at 20.32 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "983a108c-6bf8-46bc-a916-72124ee00311")
+	)
 	(hierarchical_label "VBUS"
 		(shape bidirectional)
 		(at 20.32 21.59 0)
@@ -48,5 +70,16 @@
 			(justify left)
 		)
 		(uuid "acce4e4b-635a-4f59-8540-d2a623614f71")
+	)
+	(hierarchical_label "I2CC_IRQ"
+		(shape bidirectional)
+		(at 20.32 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ddefa91b-7c1d-4161-aab5-894c7af92d3b")
 	)
 )

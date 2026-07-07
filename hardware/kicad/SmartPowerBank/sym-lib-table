@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SmartPowerBank_Custom")(type "KiCad")(uri "C:/Users/mberk/OneDrive/Desktop/SmartPowerBank/hardware/kicad/SmartPowerBank_Custom.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ25798RQMR")(type "KiCad")(uri "C:/Users/mberk/OneDrive/Desktop/SmartPowerBank/hardware/kicad/libraries/BQ25798RQMR/KiCADv6/2026-07-07_18-56-38.kicad_sym")(options "")(descr ""))
+)
