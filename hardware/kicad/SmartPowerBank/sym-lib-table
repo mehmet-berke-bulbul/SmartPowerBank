@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "SmartPowerBank_Custom")(type "KiCad")(uri "C:/Users/mberk/OneDrive/Desktop/SmartPowerBank/hardware/kicad/SmartPowerBank_Custom.kicad_sym")(options "")(descr ""))
   (lib (name "BQ25798RQMR")(type "KiCad")(uri "C:/Users/mberk/OneDrive/Desktop/SmartPowerBank/hardware/kicad/libraries/BQ25798RQMR/KiCADv6/2026-07-07_18-56-38.kicad_sym")(options "")(descr ""))
+  (lib (name "ISO1640BD")(type "KiCad")(uri "C:/Users/mberk/OneDrive/Desktop/SmartPowerBank/hardware/kicad/libraries/ISO1640BD/KiCad/ISO1640BQDRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS25751D")(type "KiCad")(uri "C:/Users/mberk/OneDrive/Desktop/SmartPowerBank/hardware/kicad/libraries/TPS25751D/2026-11-14_11-58-01.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS54531")(type "KiCad")(uri "C:/Users/mberk/OneDrive/Desktop/SmartPowerBank/hardware/kicad/libraries/TPS54531/KiCADv6/2026-11-14_14-17-50.kicad_sym")(options "")(descr ""))
 )

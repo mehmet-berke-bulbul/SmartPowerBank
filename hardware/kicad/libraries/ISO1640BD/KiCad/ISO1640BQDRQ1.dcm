@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ISO1640BQDRQ1
+D Digital Isolators Automotive, hot-swappable, robust-EMC bidirectional I2C isolator with bidirectional clock
+K
+F https://www.ti.com/lit/ds/symlink/iso1640.pdf
+$ENDCMP
+#
+#End Doc Library

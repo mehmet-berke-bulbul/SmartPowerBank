@@ -2,4 +2,7 @@
   (version 7)
   (lib (name "BQ76907RGR")(type "KiCad")(uri "C:/Users/mberk/OneDrive/Desktop/SmartPowerBank/hardware/kicad/libraries/BQ76907RGR/KiCADv6/footprints.pretty")(options "")(descr ""))
   (lib (name "BQ25798RQMR")(type "KiCad")(uri "C:/Users/mberk/OneDrive/Desktop/SmartPowerBank/hardware/kicad/libraries/BQ25798RQMR/KiCADv6/footprints.pretty")(options "")(descr ""))
+  (lib (name "ISO1640BD")(type "KiCad")(uri "C:/Users/mberk/OneDrive/Desktop/SmartPowerBank/hardware/kicad/libraries/ISO1640BD/KiCad")(options "")(descr ""))
+  (lib (name "TPS25751D")(type "KiCad")(uri "C:/Users/mberk/OneDrive/Desktop/SmartPowerBank/hardware/kicad/libraries/TPS25751D/footprints.pretty")(options "")(descr ""))
+  (lib (name "TPS54531")(type "KiCad")(uri "C:/Users/mberk/OneDrive/Desktop/SmartPowerBank/hardware/kicad/libraries/TPS54531/KiCADv6/footprints.pretty")(options "")(descr ""))
 )
