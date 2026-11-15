@@ -476,16 +476,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 95.25) (xy 111.76 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d15d9472-d0dd-4b94-85f9-55a470d106af")
-	)
-	(wire
-		(pts
 			(xy 139.7 87.63) (xy 148.59 87.63)
 		)
 		(stroke
@@ -933,16 +923,6 @@
 		(pin "UART_DBG_RX" output
 			(at 99.06 104.902 90)
 			(uuid "722a24da-e1b1-42fd-931f-6d91ab876515")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "BOOT0" output
-			(at 111.76 104.902 90)
-			(uuid "c5c44efe-d117-4d51-8dc1-c256e1bb2603")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1513,16 +1493,6 @@
 		(pin "NRST" input
 			(at 109.22 96.266 270)
 			(uuid "20a905d0-eaaf-4fce-8fa2-b7b7fe2e2f60")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "BOOT0" input
-			(at 111.76 96.266 270)
-			(uuid "164e6784-c058-41b6-a36d-7e513d79945f")
 			(effects
 				(font
 					(size 1.27 1.27)
