@@ -1,52 +1,79 @@
-# SmartPowerBank — USB-C PD/PPS Powerbank + Smart BMS
+# SmartPowerBank
 
-A portfolio-grade hardware project: a 2S4P Li-ion powerbank architecture with USB-C PD/PPS, battery protection, measurement, thermal safety, display UI, and an STM32-based control layer.
+**A 2S4P lithium-ion power bank with USB-C PD/PPS, battery protection, and embedded control.**
 
-> **Project state:** Architecture and requirements phase  
-> **Hardware status:** Not yet designed  
-> **Important:** Component selections are preliminary until datasheet review, availability checks, simulations, and schematic review are completed.
+<p align="center">
+  <img src="assets/images/SmartPowerBank.png" alt="3D rendering of the SmartPowerBank PCB layout" width="850">
+</p>
 
-## Target concept
+<p align="center"><em>KiCad 3D render of the current PCB draft. This is a design preview, not an assembled or tested device.</em></p>
 
-- Battery topology: **2S4P Li-ion**
-- Energy target: approximately **80 Wh class**
-- USB-C: **single bidirectional USB-C port**
-- Input target: **USB-C PD up to 60 W**
-- Output target: **USB-C PD/PPS up to 45 W**
-- Battery features: cell-group voltage monitoring, current sensing, NTC temperature monitoring, protection, passive balancing
-- User interface: compact OLED display + button(s)
-- Controller: STM32 family MCU
-- PCB target: 4 layers, high-current power planes, thermal-aware placement
+| Battery | USB-C input target | USB-C output target | PCB |
+| :---: | :---: | :---: | :---: |
+| 2S4P · ~80 Wh | Up to 60 W PD | Up to 45 W PD/PPS | Four layers |
 
-## Repository map
+## Overview
 
-- `docs/` — requirements, architecture, decisions, test plans
-- `hardware/kicad/` — KiCad project and hierarchical schematic
-- `hardware/datasheets/` — component datasheets
-- `hardware/reference_designs/` — vendor app notes and reference circuits
-- `hardware/bom/` — BOM, sourcing notes, alternates
-- `firmware/` — STM32 firmware
-- `simulations/` — LTspice / calculations / thermal checks
-- `assets/` — diagrams, screenshots, photos
-- `manufacturing/` — Gerbers, drill files, assembly files (later)
+SmartPowerBank explores a compact, single-port power bank architecture. A USB-C power path handles charging and output, while a dedicated battery monitor supervises the two cell groups. An STM32 controller coordinates the user interface and system behavior. The design includes current and temperature sensing, protection FETs, and a small OLED display.
 
-## Design workflow
+The project documents the complete hardware development process: component selection, hierarchical schematics, PCB layout, design checks, and eventually prototype testing and firmware. Power figures above are **design targets**, not measured performance.
 
-1. Freeze system requirements
-2. Compare and select main ICs
-3. Create power budget and operating profiles
-4. Draw hierarchical KiCad schematic
-5. Perform ERC and design review
-6. Create PCB stack-up and placement
-7. Route high-current and switching loops
-8. Perform DRC, manufacturing checks, and BOM review
-9. Prepare firmware structure and test plan
-10. Publish design documentation
+## Current status
 
-## Current next task
+**PCB design in progress.** The KiCad schematics, component footprints, initial placement, and a routing draft are available in this repository. The 3D views below show the layout as it stands today. PCB design rule issues, routing details, thermal behavior, protection settings, and electrical performance still require review and validation. **Do not use the current files as manufacturing-ready hardware.**
 
-Create the KiCad project under `hardware/kicad/` with the name:
+| Area | Current state |
+| --- | --- |
+| System architecture and component choices | Defined for this design iteration |
+| Hierarchical schematic | Captured in KiCad; ERC checked during development |
+| PCB | Four-layer placement and routing draft |
+| BOM and primary IC datasheets | Included for review |
+| Firmware, bring-up, and measured results | Pending |
 
-`SmartPowerBank`
+## Hardware architecture
 
-Then create the hierarchical sheets listed in `hardware/kicad/SHEET_PLAN.md`.
+| Function | Design choice |
+| --- | --- |
+| Battery pack | 2S4P Molicel INR-18650-P28A concept; 7.2 V nominal, ~11.2 Ah, ~80.6 Wh |
+| USB-C PD interface | TPS25751 family USB-C/PD controller; one bidirectional port |
+| Charging and power management | BQ25798 buck-boost battery charger |
+| Regulated power conversion | TPS552892 buck-boost converter |
+| Battery monitoring and protection | BQ76907, cell-group sensing, current shunt, NTC sensing, protection FETs |
+| Control and display | STM32G0-family MCU and compact OLED interface |
+
+The schematic and BOM are the source of truth for exact part numbers, connections, and fitted components. Battery protection thresholds and operating limits must be confirmed before any physical prototype is powered.
+
+## PCB previews
+
+| Top view | Bottom view |
+| :---: | :---: |
+| ![Top-side KiCad PCB preview](assets/images/SmartPowerBank_top.png) | ![Bottom-side KiCad PCB preview](assets/images/SmartPowerBank_bottom.png) |
+
+These are design renders; the copper layout and component placement may change as routing and design-rule review continue.
+
+## Explore the repository
+
+| Path | Contents |
+| --- | --- |
+| [`hardware/kicad/`](hardware/kicad/) | KiCad project, schematic sheets, PCB, and project libraries |
+| [`hardware/bom/`](hardware/bom/) | Component lists and sourcing work |
+| [`hardware/datasheets/`](hardware/datasheets/) | Datasheets for the principal ICs |
+| [`hardware/mechanical/`](hardware/mechanical/) | Mechanical design work |
+| [`assets/images/`](assets/images/) | PCB previews and project images |
+| [`docs/`](docs/) | Requirements and engineering notes |
+| [`firmware/`](firmware/) | Firmware workspace; implementation pending |
+| [`manufacturing/`](manufacturing/) | Reserved for reviewed production outputs |
+
+Open the project with **KiCad 9** from `hardware/kicad/SmartPowerBank/`. Inspect the schematic, PCB, BOM, and design-rule results together; the renders alone do not establish electrical correctness.
+
+## Next milestones
+
+1. Resolve PCB DRC violations and remaining routing issues.
+2. Review current paths, switching loops, ground references, creepage/clearances, and thermal copper against component guidance.
+3. Reconcile the BOM with exact manufacturer part numbers, footprints, and availability.
+4. Finalize the mechanical design and firmware bring-up plan.
+5. Build and test a prototype only after the electrical and safety reviews are complete.
+
+---
+
+**Project by Mehmet Berke Bülbül** · Electrical and Electronics Engineering · Bursa Technical University
