@@ -221,16 +221,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/FTSH-105-01-L-DV-007-K_Samtec.pdf"
+			(property "Description" "Connector Header Surface Mount 10 position 0.050\" (1.27mm)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -240,7 +231,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "Connector Header Surface Mount 10 position 0.050\" (1.27mm)"
+			(property "DATASHEET_URL" "https://s3.amazonaws.com/snapeda/datasheet/FTSH-105-01-L-DV-007-K_Samtec.pdf"
 				(at 0 0 0)
 				(effects
 					(font

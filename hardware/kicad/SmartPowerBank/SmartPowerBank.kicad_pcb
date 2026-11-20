@@ -5142,18 +5142,6 @@
 			(layer "F.Fab")
 			(uuid "02e9932d-9607-48cb-b828-893e395b0aa9")
 		)
-		(fp_text user "Designator215"
-			(at -2.7432 -3.6576 180)
-			(unlocked yes)
-			(layer "F.SilkS")
-			(uuid "bd56c7da-b92d-4810-a0b6-688682b5bf3e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(unlocked yes)
@@ -15383,6 +15371,17 @@
 			(uuid "7ec08d78-edf5-45e8-8a0c-0d6c73ef7d82")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/mberk/OneDrive/Desktop/SmartPowerBank/hardware/kicad/libraries/TPS7A2433DBVR/TPS7A2433DBVR.STEP"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_Shunt_Vishay_WSK2512_6332Metric_T1.19mm"
 		(layer "F.Cu")
@@ -31783,6 +31782,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9c58ba38-8180-4e06-b74c-11af46e656d9")
 			(effects
 				(font
